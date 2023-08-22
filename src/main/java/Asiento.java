@@ -1,4 +1,4 @@
-
+package test;
 
 public class Asiento {
 	
@@ -7,7 +7,10 @@ public class Asiento {
 	int  registro;
 	
 	void cambiarColor(String color) {
-		this.color = color;
+		if(color == "rojo" || color == "verde" || color == "amarillo"  || color == "negro" || color == "blanco"){
+			this.color = color;
+		}
+		
 	}
 	
 
