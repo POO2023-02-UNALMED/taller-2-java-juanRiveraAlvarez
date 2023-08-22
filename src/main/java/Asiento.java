@@ -1,4 +1,4 @@
-package test;
+
 
 public class Asiento {
 	
@@ -6,8 +6,9 @@ public class Asiento {
 	int precio;
 	int  registro;
 	
-	void CambiarColor(String color) {
+	void cambiarColor(String color) {
 		this.color = color;
 	}
+	
 
 }

@@ -13,8 +13,8 @@ public class Auto {
 	int cantidadAsientos() {
 		return this.asientos.length;
 	}
-	
-	String carificarIntegridad() {
+
+	String verificarIntegridad() {
 		boolean verificado = false;
 		if(this.motor.registro == this.registro) {
 			for(int  i = 0; i <= asientos.length; i++) {
